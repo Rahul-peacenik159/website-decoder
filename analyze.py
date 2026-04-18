@@ -79,7 +79,7 @@ def main():
 
     # Step 6: Deep animation inspection
     print("\n[ 6/6 ] Deep animation & illustration inspection...")
-    css_files = [{"content": (assets_dir / f).read_text(encoding="utf-8")}
+    css_files = [{"content": f.read_text(encoding="utf-8")}
                  for f in assets_dir.glob("*.css")] if assets_dir.exists() else []
     animation_data = animation_inspector.analyze(
         html=browser_data["html"],
