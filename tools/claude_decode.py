@@ -52,7 +52,13 @@ def run_decode(prompt_text: str, report_text: str, label: str) -> str:
     return message.content[0].text
 
 
-def run_all(report_path: str, domain: str, output_dir: Path) -> list:
+def run_all(
+    report_path: str,
+    domain: str,
+    output_dir: Path,
+    run_id: str = "",
+    screenshots_dir=None,
+) -> list:
     """Run all three decodes and save outputs. Returns list of saved file paths."""
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -79,5 +85,21 @@ def run_all(report_path: str, domain: str, output_dir: Path) -> list:
 
         except Exception as e:
             print(f"  ! {decode['label']} failed: {e}")
+
+    # Step 4: Generate PPT content JSON
+    if run_id:
+        from tools import ppt_content
+        try:
+            ppt_path = ppt_content.generate(
+                report_path=report_path,
+                domain=domain,
+                run_id=run_id,
+                decodes_dir=output_dir,
+                output_dir=output_dir,
+            )
+            if ppt_path:
+                saved.append(ppt_path)
+        except Exception as e:
+            print(f"  ! PPT content generation failed: {e}")
 
     return saved

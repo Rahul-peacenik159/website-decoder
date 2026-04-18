@@ -108,7 +108,10 @@ def main():
     decodes_dir = base_output / "decodes" / domain
     if os.environ.get("ANTHROPIC_API_KEY"):
         print("\n[ 7/7 ] Running Claude decodes (PMM + Frontend + Design)...")
-        decode_files = claude_decode.run_all(report_path, domain, decodes_dir)
+        decode_files = claude_decode.run_all(
+            report_path, domain, decodes_dir,
+            run_id=timestamp, screenshots_dir=run_dir,
+        )
     else:
         print("\n[ 7/7 ] Skipping Claude decodes (ANTHROPIC_API_KEY not set)")
         decode_files = []
