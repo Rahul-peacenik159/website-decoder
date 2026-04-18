@@ -1,0 +1,242 @@
+{
+  "title": "Website Decode: descope.com",
+  "slides": [
+    {
+      "id": 1,
+      "layout": "cover",
+      "title": "Drag & drop Identity federation",
+      "subtitle": "descope.com",
+      "screenshot": "section-00.png",
+      "bg_color": "#0C141E",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 2,
+      "layout": "two-column",
+      "title": "Brand Identity at a Glance",
+      "body": [
+        "Developer-first",
+        "Clean",
+        "Approachable",
+        "Technical",
+        "Modern",
+        "Visual style: light-mode technical with deep navy dark sections",
+        "First impression: this is auth for builders who don't want to build auth"
+      ],
+      "screenshot": "section-01.png",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 3,
+      "layout": "bullets",
+      "title": "Core Positioning",
+      "subtitle": null,
+      "body": [
+        "Positioning: No-code external identity platform for apps, AI agents, and MCP servers — drag and drop",
+        "Category play: External IAM / CIAM — positioning ahead of Auth0/Okta as the developer-native modern alternative",
+        "Wedge message: Drag & drop identity federation — makes the hard thing (auth) feel trivially easy",
+        "Primary value prop: One platform for all external identities — users, B2B customers, partners, AI agents",
+        "Secondary value prop: No-code flows + full SDK coverage = works for both no-code builders and pro devs"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 4,
+      "layout": "bullets",
+      "title": "ICP & Buyer Profile",
+      "subtitle": "Who they are selling to and how they speak to them",
+      "body": [
+        "Primary buyer: Engineering leads, CTOs, and developer-founders at B2B SaaS and consumer apps",
+        "Industries targeted: SaaS, fintech, consumer apps, enterprise software — anyone building user-facing auth",
+        "Company stage/size: Startup to mid-market — Sign up CTA (no demo required) confirms self-serve PLG entry",
+        "Buyer sophistication: High technical — SDK links, Quick start docs, API reference all above the fold in nav",
+        "Pain trigger: Engineering team spending weeks building auth flows instead of shipping product features",
+        "Objection pre-empted: GoFundMe case study answers — will this work at scale in production for real companies"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 5,
+      "layout": "two-column",
+      "title": "Messaging Architecture",
+      "body": [
+        "H1: Drag & drop Identity federation (rotating typewriter — shows multiple use cases)",
+        "Key H2: One platform for all your external identities",
+        "Key H2: Our no-code CIAM platform",
+        "Key H2: Power endless external identity use cases",
+        "Sub-headline: Auth that meets devs where they are"
+      ],
+      "screenshot": "section-02.png",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 6,
+      "layout": "bullets",
+      "title": "Messaging Framework Deep Dive",
+      "subtitle": "How they structure the narrative top to bottom",
+      "body": [
+        "Hook (above fold): Typewriter H1 cycles through use cases — identity federation, B2B auth, AI agents — shows range immediately",
+        "Problem frame: Auth is complex, time-consuming, and pulls engineers off product work — implicit not explicit",
+        "Solution introduction: Drag & drop no-code flows + SDK coverage = build in minutes not weeks",
+        "Proof point: Powering auth for 1000+ organizations in production — scale + trust signal before any feature pitch",
+        "Feature-to-benefit: No-code flows → ship faster; AI agent support → future-proof your auth stack now",
+        "Closing argument: Ready for liftoff? — energetic, launch metaphor, Sign up CTA with zero friction"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 7,
+      "layout": "bullets",
+      "title": "GTM Motion & CTA Strategy",
+      "subtitle": null,
+      "body": [
+        "GTM motion: Hybrid PLG + SLG — Sign up (free, no card) for developers, Book a demo for enterprise buyers",
+        "Primary CTA: Sign up → /sign-up — PLG self-serve confirms developer-led adoption motion",
+        "Secondary CTA: Book a demo → /demo — sales layer for enterprise or complex multi-tenant deals",
+        "Lead magnet: Quick start docs, SDK explorer, G2 reviews — developers evaluate by building, not by reading",
+        "Trust signals: 1000+ organizations in production, GoFundMe case study, G2 badge — all before any conversion ask",
+        "Friction level: Very low — Sign up is the primary CTA, no form visible, no credit card language"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 8,
+      "layout": "color-palette",
+      "title": "Brand Color System",
+      "colors": [
+        {"hex": "#0C141E", "role": "Deep Navy (Dark BG)"},
+        {"hex": "#11212F", "role": "Dark Section BG"},
+        {"hex": "#193347", "role": "Mid Navy"},
+        {"hex": "#53BDE4", "role": "Cyan (Primary)"},
+        {"hex": "#C96D32", "role": "Warm Orange (Accent)"},
+        {"hex": "#C25DB0", "role": "Pink (Accent)"},
+        {"hex": "#F4F9FA", "role": "Off-White (Light BG)"},
+        {"hex": "#9AA0A5", "role": "Neutral Gray"}
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 9,
+      "layout": "two-column",
+      "title": "Visual Identity",
+      "body": [
+        "Illustration style: Technical product UI with wire/flow diagrams — shows the actual drag-and-drop builder metaphor",
+        "Why this style: Makes an abstract concept (identity flows) instantly tangible — the product IS the illustration",
+        "Animation intent: Load-time staggered entrance with spring physics — energetic, playful, dev-friendly feel",
+        "Hero hierarchy: Text-first with animated typewriter — H1 cycles use cases before visuals render",
+        "Product shown directly: Yes — hero likely shows the drag-and-drop flow builder UI, high fidelity product preview"
+      ],
+      "screenshot": "section-03.png",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 10,
+      "layout": "bullets",
+      "title": "Animation Stack",
+      "subtitle": "How it is built technically",
+      "body": [
+        "Primary stack: CSS Keyframes (17 found) + GSAP + Lottie + Rive — heavy multi-library approach",
+        "Scroll animations: Load-time staggered hero entrance — most animations fire on page load, not scroll",
+        "CSS keyframes: Navbar scale/fade/enter/exit animations, typewriter cursor blink, nav menu slide transitions",
+        "Spring physics: cubic-bezier(.34,1.56,.64,1) — overshoot spring used for element entrances, feels bouncy and alive",
+        "Custom easing: cubic-bezier(.59,0,.06,1) — sharp deceleration on transitions, snappy and technical feel"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 11,
+      "layout": "bullets",
+      "title": "3 Animation Techniques to Steal",
+      "subtitle": null,
+      "body": [
+        "1. Typewriter H1 with cursor blink: Cycles through multiple use cases in one headline — shows product range without extra copy; implement with CSS animation type-animation_blink + JS text cycling on a timed interval",
+        "2. Spring entrance cubic-bezier(.34,1.56,.64,1): Elements overshoot then settle — feels alive and developer-playful; apply to any hero element entrance with transform: translateY + this easing",
+        "3. Wire connector SVG illustrations: CSS gradient wires connecting UI nodes — shows product flow visually; implement with SVG path + linearGradient fill using brand cyan to purple gradient"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 12,
+      "layout": "two-column",
+      "title": "Illustration System Deep Dive",
+      "body": [
+        "Style: Technical product UI diagrams — flow builders, wire connectors, node-based identity flows",
+        "Custom or library: Custom — wire gradient CSS vars (--leftWireId, --rightWireId) confirm bespoke illustration system",
+        "Built for animation: Yes — Rive and Lottie detected, wire connector SVGs with gradient fills designed for motion",
+        "Color in illustrations: Cyan (#53BDE4) as the primary connector/highlight, dark navy as base, warm orange as accent node",
+        "Depth technique: Multi-layer SVG z-stacking with gradient overlays — wire gradients fade in/out to create depth"
+      ],
+      "screenshot": "section-04.png",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 13,
+      "layout": "bullets",
+      "title": "What to Steal / What to Avoid",
+      "subtitle": null,
+      "body": [
+        "✓ Steal: Typewriter H1 cycling through use cases — shows product range in one headline without clutter",
+        "✓ Steal: Sign up as primary CTA — low-friction PLG entry removes all barriers for developer evaluation",
+        "✓ Steal: SDK grid with 14 languages — comprehensive coverage displayed upfront builds developer confidence immediately",
+        "✗ Avoid: Nav is too sparse — only 3 links (Customers, Sign up, Book a demo) hides product depth from mid-funnel visitors",
+        "✗ Avoid: Drag & drop H1 loses context without animation — in static/scraped form it reads as incomplete sentence"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 14,
+      "layout": "bullets",
+      "title": "How to Replicate This Design System",
+      "subtitle": "Minimum viable build to get 80% of the visual impact",
+      "body": [
+        "Style rule: Technical flow diagrams with wire connectors — show the product as the illustration, no metaphor needed",
+        "Color system: 1 deep navy base + 1 bright cyan primary + 1 warm accent (orange) + off-white for light sections",
+        "Animation rule: Spring entrance (overshoot cubic-bezier) for hero, CSS keyframes for nav, Lottie for product demos",
+        "Tools: Figma for flow diagrams, CSS gradients for wire effects, Rive for interactive product previews",
+        "Build first: The drag-and-drop flow builder hero illustration — it IS the product pitch and delivers 70% of the impact"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 15,
+      "layout": "bullets",
+      "title": "Competitive Signals",
+      "subtitle": null,
+      "body": [
+        "Category owned: External IAM / CIAM — positioning as modern no-code alternative to Auth0, Okta, and Clerk",
+        "Benchmark 1: Auth0/Okta — Descope differentiates on no-code flows and price; Auth0 requires heavy developer customization",
+        "Benchmark 2: Clerk — similar dev-first positioning but Descope adds B2B multi-tenant + AI agent support Clerk lacks",
+        "JTBD framing: Let my engineering team ship product features instead of building and maintaining authentication",
+        "Differentiation signal: First CIAM platform to natively support AI agents and MCP servers — no competitor claims this yet"
+      ],
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 16,
+      "layout": "two-column",
+      "title": "Design–Copy Harmony",
+      "body": [
+        "Illustration reinforces headline: Yes — drag-and-drop builder visual directly shows what Drag & drop identity means",
+        "Metaphor system: Building blocks and connections — flows, wires, nodes all reinforce the platform-as-assembler concept",
+        "Color as narrative: Light sections (neutral, open) → dark navy sections (serious, enterprise) → cyan highlights (action)",
+        "Icon/illustration consistency: Wire SVGs match flow diagrams match SDK icons — single technical illustration register",
+        "Design principle this site nails: Product UI as hero illustration — removes the gap between promise and proof instantly"
+      ],
+      "screenshot": "section-05.png",
+      "accent_color": "#53BDE4"
+    },
+    {
+      "id": 17,
+      "layout": "quote",
+      "quote": "Descope is the no-code external identity platform for developers who want to ship auth in hours not weeks — the only CIAM built for users, B2B customers, partners, and AI agents from a single drag-and-drop interface.",
+      "attribution": "descope.com",
+      "bg_color": "#0C141E",
+      "accent_color": "#53BDE4"
+    }
+  ],
+  "meta": {
+    "domain": "descope.com",
+    "run_id": "20260418-1613",
+    "screenshot_path": "output/screenshots/descope.com/20260418-1613"
+  }
+}
