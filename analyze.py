@@ -8,13 +8,14 @@ Runs all analysis tools, saves output to output/{domain}/{timestamp}/,
 and generates a markdown report.
 """
 
+import os
 import sys
 import argparse
 from pathlib import Path
 from datetime import datetime
 from urllib.parse import urlparse
 
-from tools import browser, css_analyzer, structure, colors, illustrations, animation_inspector, report
+from tools import browser, css_analyzer, structure, colors, illustrations, animation_inspector, report, claude_decode
 
 
 def get_domain(url: str) -> str:
@@ -103,11 +104,24 @@ def main():
         screenshots_rel_path=screenshots_rel,
     )
 
+    # Step 7: Claude decodes (only if API key is set)
+    decodes_dir = base_output / "decodes" / domain
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        print("\n[ 7/7 ] Running Claude decodes (PMM + Frontend + Design)...")
+        decode_files = claude_decode.run_all(report_path, domain, decodes_dir)
+    else:
+        print("\n[ 7/7 ] Skipping Claude decodes (ANTHROPIC_API_KEY not set)")
+        decode_files = []
+
     print(f"\n{'='*50}")
     print(f"  DONE")
-    print(f"  Report: {report_path}")
+    print(f"  Report:      {report_path}")
     print(f"  Screenshots: {run_dir}")
-    print(f"  CSS assets: {assets_dir}")
+    print(f"  CSS assets:  {assets_dir}")
+    if decode_files:
+        print(f"  Decodes:")
+        for f in decode_files:
+            print(f"    - {f}")
     print(f"{'='*50}\n")
 
 

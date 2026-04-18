@@ -48,6 +48,8 @@ jobs:
         run: playwright install chromium
 
       - name: Run analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python analyze.py "${{ github.event.inputs.url }}"
 
       - name: Commit results

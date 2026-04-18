@@ -5,3 +5,4 @@ colorthief==0.2.1
 Pillow==10.3.0
 requests==2.31.0
 lxml==5.2.2
+anthropic>=0.40.0
