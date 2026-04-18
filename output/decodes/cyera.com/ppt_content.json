@@ -1,0 +1,192 @@
+{
+  "title": "Website Decode: cyera.com",
+  "slides": [
+    {
+      "id": 1,
+      "layout": "cover",
+      "title": "Protect your data. Secure AI.",
+      "subtitle": "cyera.com",
+      "screenshot": "section-00.png",
+      "bg_color": "#160923",
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 2,
+      "layout": "two-column",
+      "title": "Brand Identity at a Glance",
+      "body": [
+        "Precise",
+        "Authoritative",
+        "Intelligent",
+        "Urgent",
+        "Premium",
+        "Visual style: dark-mode enterprise editorial",
+        "First impression: controlled confidence"
+      ],
+      "screenshot": "section-01.png",
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 3,
+      "layout": "bullets",
+      "title": "Core Positioning",
+      "subtitle": null,
+      "body": [
+        "One-liner: AI-native data security for enterprises in every environment",
+        "ICP: Enterprise CISOs and security leaders in regulated industries",
+        "Pain point: AI breaks your old defenses — legacy tools weren't built for this",
+        "Category: DSPM expanding toward AI Security platform ownership"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 4,
+      "layout": "two-column",
+      "title": "Messaging Architecture",
+      "body": [
+        "H1: Protect your data. Secure AI.",
+        "H2: AI breaks your old defenses",
+        "H2: One platform to secure AI — from data to access to action",
+        "H2: Protect and comply at scale by making data and AI security highly actionable"
+      ],
+      "screenshot": "section-02.png",
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 5,
+      "layout": "bullets",
+      "title": "GTM Motion & CTA Strategy",
+      "subtitle": null,
+      "body": [
+        "GTM type: Enterprise Sales-Led (SLG) with thin PLG hook",
+        "Primary CTA: Get a demo — pure account-based motion",
+        "Funnel signal: AI Security Pulse Check warms cold ICPs before demo ask",
+        "Trust approach: Paramount case study before conversion request",
+        "Friction level: 10+ field form — high intent qualification"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 6,
+      "layout": "color-palette",
+      "title": "Brand Color System",
+      "colors": [
+        {"hex": "#160923", "role": "Dark Violet (Base)"},
+        {"hex": "#2A1043", "role": "Primary Dark"},
+        {"hex": "#6d2d93", "role": "Deep Purple"},
+        {"hex": "#7E5BB1", "role": "Primary Purple"},
+        {"hex": "#d390ff", "role": "Heliotrope"},
+        {"hex": "#e8c6ff", "role": "Lavender"},
+        {"hex": "#BBFAA4", "role": "Pale Green (Success)"},
+        {"hex": "#f6f5f1", "role": "Alabaster (Light BG)"}
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 7,
+      "layout": "two-column",
+      "title": "Visual Identity",
+      "body": [
+        "Illustration style: Abstract data visualization — nodes, flows, classification layers",
+        "Animation intent: Ambient intelligence — make invisible security feel alive",
+        "Emotional register: Controlled confidence, premium enterprise",
+        "Visual weight: Light to medium — nothing jarring or dramatic"
+      ],
+      "screenshot": "section-03.png",
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 8,
+      "layout": "bullets",
+      "title": "Animation Stack",
+      "subtitle": null,
+      "body": [
+        "Primary library: GSAP + GSAP ScrollTrigger + GSAP SplitText",
+        "Also: Lottie for feature illustrations, Swiper for carousels",
+        "Scroll animations: ~70% of all animations fire on scroll entry",
+        "Load animations: ~20% hero entrance sequence on page load",
+        "Easing: cubic-bezier(.4,0,.2,1) — Material Design standard, no spring physics"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 9,
+      "layout": "bullets",
+      "title": "3 Animation Techniques to Steal",
+      "subtitle": null,
+      "body": [
+        "1. SplitText word reveal — each word enters staggered, makes headlines feel like revelation",
+        "2. Lavender hover feedback — brand color fills interactive surfaces on hover at .4s ease",
+        "3. Dark wedge section — scroll past hero into threat framing breaks visitor's mental model"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 10,
+      "layout": "two-column",
+      "title": "Illustration System Deep Dive",
+      "body": [
+        "Style: Abstract geometric — network nodes and data flows, no literal UI screenshots",
+        "Color usage: 5-7 hues, all from brand token system — illustrations ARE the brand palette",
+        "Built for animation: Yes — Lottie files built in After Effects with named pre-comps",
+        "Depth technique: Opacity-layered pale-purple fills over dark-violet base"
+      ],
+      "screenshot": "section-04.png",
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 11,
+      "layout": "bullets",
+      "title": "What to Steal / What to Avoid",
+      "subtitle": null,
+      "body": [
+        "✓ Steal: Dual-CTA architecture — demo + free assessment meets buyers at different funnel stages",
+        "✓ Steal: Deep violet + heliotrope color system — distinctive in a sea of blue enterprise SaaS",
+        "✓ Steal: AI breaks your old defenses wedge — category repositioning through named threat",
+        "✗ Avoid: 10+ field demo form — high friction kills conversion even in enterprise",
+        "✗ Avoid: Headline spaces lost in SplitText animation — legibility risk on mobile"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 12,
+      "layout": "bullets",
+      "title": "How to Replicate This Design System",
+      "subtitle": null,
+      "body": [
+        "Style rule: Abstract geometric forms — nodes, connections, no human characters or UI screenshots",
+        "Color system: 1 dark anchor + 1 luminous glow + 2 pale tints + 1 success accent",
+        "Animation rule: Lottie for hero, GSAP ScrollTrigger snap for scroll reveals, nothing faster than 300ms",
+        "Tool: Figma for SVGs, After Effects + Bodymovin for Lottie, GSAP Club for ScrollTrigger + SplitText",
+        "Build first: One hero Lottie animation — this delivers 60% of the total visual impact"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 13,
+      "layout": "bullets",
+      "title": "Competitive Signals",
+      "subtitle": null,
+      "body": [
+        "Category owned: DSPM — expanding narrative toward AI Security before competitors pivot",
+        "Benchmarks: Wiz (aesthetic + one platform), Varonis (data security), BigID (DSPM), Securiti.ai",
+        "JTBD framing: Show the board we are AI-ready without slowing the business down",
+        "Key differentiator: Only platform securing both data AND AI in a single unified surface"
+      ],
+      "accent_color": "#7E5BB1"
+    },
+    {
+      "id": 14,
+      "layout": "quote",
+      "quote": "Cyera is the AI-native data security platform built for a world where AI makes old defenses obsolete — targeting enterprise security leaders who need to govern data and AI risk simultaneously from a single intelligent platform.",
+      "attribution": "cyera.com",
+      "bg_color": "#160923",
+      "accent_color": "#7E5BB1"
+    }
+  ],
+  "meta": {
+    "domain": "cyera.com",
+    "run_id": "20260418-1307",
+    "screenshot_path": "output/screenshots/cyera.com/20260418-1307"
+  }
+}
